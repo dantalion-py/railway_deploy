@@ -25,10 +25,9 @@ SECRET_KEY = 'django-insecure-zx=!u$+_^eb$02r^=s)!&a9nomb!8_0iwcii)bmm!)%+^kz5(s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = [ 'localhost', '127.0.0.1', 'railwaydeploy-production-7b8a.up.railway.app' ]
-ALLOWED_HOSTS = [ '*' ]
+ALLOWED_HOSTS = [ 'localhost', '127.0.0.1', 'railwaydeploy-production-7b8a.up.railway.app' ]
 
-# CSRF_TRUSTED_ORIGINS = [ 'https://railwaydeploy-production-7b8a.up.railway.app' ]
+CSRF_TRUSTED_ORIGINS = [ 'https://railwaydeploy-production-7b8a.up.railway.app' ]
 # Application definition
 
 INSTALLED_APPS = [
